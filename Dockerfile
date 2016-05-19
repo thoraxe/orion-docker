@@ -6,5 +6,5 @@ RUN curl -L "http://www.eclipse.org/downloads/download.php?file=/orion/drops/R-1
     && cd /usr/share \
     && unzip /tmp/orion-11.0-linux.gtk.x86_64.zip
 WORKDIR /usr/share/eclipse
-CMD ["orion"]
+CMD ["./orion"]
 EXPOSE 8080
